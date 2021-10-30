@@ -1,3 +1,9 @@
-## Voyage-2 theme by ThemeWagon team.
+## TravoNow - Airport check-in WebApp
 ---
-Thank you for using Voyage-2 See the "public" folder, you will find everything ready to use there. If you want to use the gulp based workflow, cd to this directory in your terminal and run this command: npm i && gulp
+TravoNow is a Web Application that let’s you check-in hassle free into the airport using Aadhaar services.
+
+--> Discover the beauty in easy flight journey procedures & destination tour bookings.
+--> Save your time while checking-in and be free in the airport, no panic.
+--> Aadhaar authentication services to quickly board in to flights sooner and hassle free.
+--> Just enter your flight/destination/date and we will authenticate you and your family details for easy airport check-in and flight onboarding.
+--> Book vacations to the greatest places and board quick flights at ease
