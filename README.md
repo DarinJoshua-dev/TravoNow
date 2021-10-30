@@ -2,7 +2,7 @@
 
 ---
 
-TravoNow is a Web Application that lets you check-in hassle-free into the airport using Aadhaar services.
+TravoNow is a Web Application that lets you check-in fast & hassle-free into the airport using Aadhaar services.
 
 - Discover the beauty in easy flight journey procedures & destination tour bookings.
 - Save your time while checking-in and be free in the airport, no panic.
