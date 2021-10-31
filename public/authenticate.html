@@ -71,6 +71,26 @@
     const app = initializeApp(firebaseConfig);
     const analytics = getAnalytics(app);
 </script>
+<script>
+    uid=document.getElementId("uid")
+    const http = newXMLHttpRequest()
+    function gen()
+    {
+    const url='https://stage1.uidai.gov.in/onlineekyc/getAuth/';
+    http.open("POST", url, true);
+    http.send(uid);
+    http.onreadystatechange = (e) =>  {
+        console.log(htto.responseText)
+    }  
+    }
+</script>
+<script>
+    function promptMe(){
+    var userAdjective = prompt("Authentication Sucessfully completed, Check OTP and confirm here");
+    alert (userAdjective);
+    window.location.replace("index.html");
+}
+</script>
 </head>
 
 <body>
@@ -188,15 +208,15 @@
             padding-top: 25px;">
             <h2 style="color:firebrick">Authentication</h2>
                 <div class="inputBox" style="color:bisque">
-                    <label for="vid">Enter VID</label>
+                    <label id="vid">Enter VID</label>
                     <input type="text" name="vid">
                 </div>
                 <div class="inputBox" style="color:bisque">
-                    <label for="uid">Enter UID</label>
+                    <label id="uid">Enter UID</label>
                     <input type="text" name="uid">
                 </div>
                 <div class="inputBox">
-                    <input type="submit" name=""> 
+                    <button id="bgnBtn" onclick="promptMe()">Submit/Authenticate</button> 
                 </div>
             </form>
     </section><br><br>
